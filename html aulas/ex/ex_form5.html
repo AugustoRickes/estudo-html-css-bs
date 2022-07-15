@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulários</title>
+</head>
+<body>
+    
+    <form>
+        <fieldset>
+            <legend>Dados pessoais</legend>
+
+            <label>
+                Nome:
+                <input type="text" name="nome" required>
+            </label>
+            <br>
+            
+            <label>
+                CPF:
+                <input type="text" name="cpf" maxlength="14" size="14" required>
+            </label><br>
+
+            <label>
+                Idade:
+                <input type="number" name="idade" min="0" max="120" required>
+            </label><br>
+
+            <label>
+                E-mail:
+                <input type="email" name="email" maxlength="70" required>
+            </label><br>
+
+            <label>
+                Estado cível:
+                <select required>
+                    <option selected disabled>Selecione uma opção</option>
+                    <option>Casado</option>
+                    <option>Separado</option>
+                    <option>Solteiro</option>
+                </select>
+            </label><br>
+
+            <label>Sexo</label>
+            <label>Masculino <input type="radio" name="sexo" required></label>
+            <label>Feminino <input type="radio" name="sexo" required></label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Dados profissionais</legend>
+            <label>
+                Experiência profissional:
+                <textarea name="profis" required></textarea>
+            </label><br>
+            <label>
+                Educação:
+                <input type="text" name="educ" required>
+            </label><br>
+            <label>HTML <input type="checkbox" name="hab_html"></label>
+            <label>CSS <input type="checkbox"  name="hab_css"></label>
+            <label>JavaScript <input type="checkbox"  name="hab_js"></label>
+            <label>Java <input type="checkbox"  name="hab_java"></label>
+            <label>Angular <input type="checkbox"  name="hab_ang"></label>
+        </fieldset>
+
+        <button type="submit">Enviar</button>
+
+        <a href="https://www.google.com">
+            <button type="button">
+                Cancelar
+            </button>
+        </a>
+    </form>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formulários</title>
+    <link rel="stylesheet" href="ex_form_flexbox.css">
+</head>
+
+<body>
+    <header>
+        <h1>Cadastro de seleção</h1>
+        <nav>
+            <a href="#">Sobre</a>
+            <a href="#">Contato</a>
+            <a href="#">Mais</a>
+        </nav>
+    </header>
+
+    <main>
+        <form>
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+                <label>Nome: <input type="text" name="nome" maxlength="50" size="25"></label>
+                <label>CPF: <input type="text" name="cpf" maxlength="14" size="14"></label>
+                <label>Idade: <input type="number" name="idade" min="0" max="120"></label>
+
+                <fieldset>
+                    <legend>Sexo</legend>
+                    <label>Masculino <input type="radio" name="sexo"></label>
+                    <br><br> <!-- break row -> quebra de linha-->
+                    <label>Feminino <input type="radio" name="sexo"></label>
+                </fieldset>
+
+                <label>Estado civil:</label>
+                <select name="estado_civil">
+                    <option>Casado</option>
+                    <option>Solteiro</option>
+                    <option>Separado</option>
+                </select>
+            </fieldset>
+
+            <fieldset>
+                <legend>Dados de acesso</legend>
+                <label>Usuario: <input type="text" name="usuario"></label>
+                <label>Senha: <input type="password" name="senha"></label>
+            </fieldset><br>
+
+            <input type="submit">
+        </form>
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,19 @@
+#container {
+    height: 200px;
+    width: 240px;
+    background-color: gray;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+
+    align-content: space-between;
+}
+
+.item {
+    width: 50px;
+    height: 60px;
+}

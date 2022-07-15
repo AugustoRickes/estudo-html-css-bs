@@ -1,0 +1,17 @@
+*{
+    background-color: burlywood;
+}
+#tabela{
+    border-style:inset;
+    border-width:15px ;
+}
+
+#tabela tr th{
+    border-style: outset;
+    border-width: 5px;
+}
+
+#tabela tr td{
+    border-style: outset;
+    border-width: 5px;
+}

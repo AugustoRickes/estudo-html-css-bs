@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+
+<body>
+
+	<form accept-charset="UTF-8" action="ex_form2.html" method="GET" target="_blank">
+		<fieldset>
+			<legend>selecao de vaga para programadoor:</legend>
+
+			<label for="name">nome</label><br />
+			<input name="name" type="text" value="" required /> <br />
+
+			<label for="cpf">cpf</label><br />
+			<input name="cpf" type="text" maxlength="14" value="" required /> <br />
+
+			<label for="idade">idade</label><br />
+			<input name="idade" type="number" value="" required /> <br />
+
+			<input checked="checked" name="sexo" type="radio" value="homem" /> homem <br />
+			<input name="sex" type="radio" value="mulher" /> mulher <br />
+
+			<label for="email">email</label><br required />
+			<input name="email" type="text" value="" /> <br />
+
+
+
+			<fieldset>
+				<legend>dados profissionais:</legend>
+
+				<label for="name">experiencia profissional:</label><br />
+				<input checked="checked" name="experiencia" type="radio" value="sim" /> sim <br />
+				<input name="experiencia" type="radio" value="nao" /> nao <br /><br />
+
+				<legend>educacao:</legend>
+				<input type="checkbox" id="fundamental" name="educacao" value="fundamental">
+				<label for="fundamental"> fundamental completo</label><br>
+
+				<input type="checkbox" id="medio" name="educacao" value="medio">
+				<label for="medio"> medio completo</label><br>
+
+				<input type="checkbox" id="superior" name="educacao" value="superior">
+				<label for="superior"> superior completo</label><br><br>
+
+
+				<fieldset>
+					<legend>habilidades:</legend>
+
+					<input type="checkbox" id="html" nome="skill" value="html">
+					<label for="html">html</label><br>
+
+					<input type="checkbox" id="css" name="skill" value="css" checked="checked">
+					<label for="css">css</label><br>
+
+					<input type="checkbox" id="javascript" name="skill" value="JavaScript">
+					<label for="javascript">JavaScript</label><br>
+
+					<input type="checkbox" id="java" name="skill" value="java" checked="checked">
+					<label for="java">java</label><br>
+
+					<input type="checkbox" id="angular" name="skill" value="angular" checked="checked">
+					<label for="angular">angular</label><br>
+
+
+					<input type="submit" value="Enviar">
+
+				</fieldset>
+
+
+			</fieldset>
+
+		</fieldset>
+	</form>
+</body>
+
+</html>
